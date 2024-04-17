@@ -1284,6 +1284,15 @@ added: v7.10.0
 
 This option is a no-op. It is kept for compatibility.
 
+### `--network-family-autoselection-attempt-timeout`
+
+<!-- YAML
+added: REPLACEME
+-->
+
+Sets the default value for the network family autoselection attempt timeout.
+For more information, see [`net.getDefaultAutoSelectFamilyAttemptTimeout()`][].
+
 ### `--no-addons`
 
 <!-- YAML
@@ -2508,6 +2517,7 @@ one is included in the list below.
 * `--inspect`
 * `--max-http-header-size`
 * `--napi-modules`
+* `--network-family-autoselection-attempt-timeout`
 * `--no-addons`
 * `--no-deprecation`
 * `--no-experimental-fetch`
@@ -2987,6 +2997,7 @@ done
 [`dns.setDefaultResultOrder()`]: dns.md#dnssetdefaultresultorderorder
 [`dnsPromises.lookup()`]: dns.md#dnspromiseslookuphostname-options
 [`import` specifier]: esm.md#import-specifiers
+[`net.getDefaultAutoSelectFamilyAttemptTimeout()`]: net.md#netgetdefaultautoselectfamilyattempttimeout
 [`process.setUncaughtExceptionCaptureCallback()`]: process.md#processsetuncaughtexceptioncapturecallbackfn
 [`process.setuid()`]: process.md#processsetuidid
 [`setuid(2)`]: https://man7.org/linux/man-pages/man2/setuid.2.html
